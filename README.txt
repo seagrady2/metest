@@ -2,32 +2,32 @@ Metest is a lightweight framework for data-oriented testing
 
 Here we have an example test file which is json stored as metests/cEquals1.json:
 
-{
-    "metest": {
-        "goal": "cEquals1",
-        "expect":"1",
-        "actual": ""
+        {
+            "metest": {
+                "goal": "cEquals1",
+                "expect":"1",
+                "actual": ""
+                }
         }
-}
 
 
 Now consider the following python example for our the most simple case:
 
-    #imports required
-    from metest import metests
-    from metest import results
-
-    #load the metests from json files into memory
-    met = metests(['printHelloWorld.json', 'cEquals1.json', 'aEquals5.json'])
-
-    #set the actual value from the program
-    if (c == 1):
-        print(a)
-        testCEO = met['cEquals1']
-        testCEO['metest']['actual'] = '1'
-
-    #run the tests expected vs actual
-    results(met)
+        #imports required
+        from metest import metests
+        from metest import results
+        
+        #load the metests from json files into memory
+        met = metests(['printHelloWorld.json', 'cEquals1.json', 'aEquals5.json'])
+        
+        #set the actual value from the program
+        if (c == 1):
+            print(a)
+            testCEO = met['cEquals1']
+            testCEO['metest']['actual'] = '1'
+        
+        #run the tests expected vs actual
+        results(met)
 
 Remember:
  with no goals, we achieve nothing. 
