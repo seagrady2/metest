@@ -5,12 +5,6 @@ Remember:
 
 And that's the intent of metest. 
 
-Developing in C/C++ has been a blessing and curse. I have made my brain into a machine and I have learned how to master C/C++ which is compiled directly to assembly, which is the machine. 
-
-I have not mastered C/C++, but the intent of this program is to do that for me and others so that they can return enjoying this beloved planet.
-
-We need to standardize a format for our goalposts. I'm bent between JSON and XML so we'l allow both but I will stick to json for now. 
-
 License
 
 The class is licensed under the MIT License:
