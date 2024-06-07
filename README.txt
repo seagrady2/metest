@@ -1,3 +1,5 @@
+Metest is a lightweight framework for data-oriented testing under MIT licensing 
+
 Remember:
  with no goals, we achieve nothing. 
  with a finite set of goals, we achieve a finite set of goals. 
