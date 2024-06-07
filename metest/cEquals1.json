@@ -1,0 +1,7 @@
+{
+    "metest": {
+        "goal": "cEquals1",
+        "expect":"1",
+        "actual": ""
+        }
+}
