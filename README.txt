@@ -1,4 +1,4 @@
-Metest is a lightweight framework for data-oriented testing under MIT licensing 
+Metest is a lightweight framework for data-oriented testing
 
 Here we have an example test file which is json stored as metests/cEquals1.json:
 
