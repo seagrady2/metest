@@ -1,11 +1,5 @@
-To start we shall hit the slopes.
-
-Slalom was one of the first games I ever witnessed on the computer, remember the yheti at then end? Watch out.
-
-Anyways the point of this is goalposts. 
-
 Remember:
- with no goals, we can achieve nothing. 
+ with no goals, we achieve nothing. 
  with a finite set of goals, we achieve a finite set of goals. 
  with infinite set of goals, we achieve infinite set of goals.
 
