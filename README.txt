@@ -1,12 +1,23 @@
 Metest is a lightweight framework for data-oriented testing under MIT licensing 
 
-Consider the following python example for our the most simple case:
+Here we have an example test file which is json stored as metests/cEquals1.json:
+
+{
+    "metest": {
+        "goal": "cEquals1",
+        "expect":"1",
+        "actual": ""
+        }
+}
+
+
+Now consider the following python example for our the most simple case:
 
     #imports required
     from metest import metests
     from metest import results
 
-    #load the metests into memory
+    #load the metests from json files into memory
     met = metests(['printHelloWorld.json', 'cEquals1.json', 'aEquals5.json'])
 
     #set the actual value from the program
@@ -17,16 +28,6 @@ Consider the following python example for our the most simple case:
 
     #run the tests expected vs actual
     results(met)
-
-Here we have a test file which is json stored metests/cEquals1.json:
-
-{
-    "metest": {
-        "goal": "cEquals1",
-        "expect":"1",
-        "actual": ""
-        }
-}
 
 Remember:
  with no goals, we achieve nothing. 
